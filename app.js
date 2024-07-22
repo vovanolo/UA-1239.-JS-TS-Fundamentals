@@ -201,3 +201,215 @@
 //         console.log("age is 30-40");
 //         break;
 // }
+
+
+// Loops Arrays Functions
+
+// const name = "hello";
+
+
+// ["Ivan", "Petro", 3434,35,353, true, false]
+
+// const / let
+
+// const students = ["Ivan", "Max", "Anna"];
+
+// Object
+
+// const students = ["Ivan" - 0, "Max" - 1, "Anna" - 2];
+
+
+// const students = ["Ivan", "Max", "Anna"];
+// studets[0]
+
+// console.log(students[0]);
+// console.log(students[1]);
+
+// students[0] = "Volodymyr";
+
+// students[3] = "John";
+
+// students[7] = "Rudi";
+
+// console.log(students[5]);
+
+
+// console.log(students.length);
+
+// students.push("John", "Rudi");
+
+// students.pop();
+
+// students.unshift("Volodymyr");
+
+// students.shift();
+
+// splice
+
+// const students = ["Ivan", "Max", "Anna"];
+
+// students.splice(1, 1, "Volodymyr");
+
+// console.log(students);
+
+
+// console.log(0);
+// console.log(1);
+
+// console.log(2);
+
+// while for for of for in
+
+// let i = 1; //2 3 4 5 6 7 8 9 10
+
+// while(i <= 9){
+//     console.log(i); // 1 2 3 4 5 7 8 9
+//     i++;
+// }
+
+// for(let i = 1; i <= 9; i++){
+//     console.log(i);
+// }
+
+
+// for(let i = 2; i <= 10; i+= 2){
+//     console.log(i);
+// }
+
+// for(let i = 10; i >= 0; i-= 1){
+//     console.log(i);
+// }
+
+// const students = ["Ivan", "Max", "Anna"];
+
+// students[0];
+
+// for(let i = 0; i < students.length; i++){
+//     console.log(students[i]);
+// }
+
+// break
+// continue
+
+// for(let i = 0; i < students.length; i++){
+//     console.log(students[i]);
+//     if(students[i] === "Max"){
+//         break;
+//     }
+// }
+
+
+// for(let i = 0; i < students.length; i++){
+//     if(students[i] === "Max"){
+//         continue;
+//     }
+//     console.log(students[i]);
+// }
+
+// for of
+// for in
+
+// const students = ["Ivan", "Max", "Anna"];
+
+
+// for (let student of students){
+//     console.log(student);
+// }
+
+// for (let index in students){
+//     // console.log(index);
+//     console.log(students[index]);
+// }
+
+// function sayHello() {
+//     console.log("Hello");
+// }
+
+// sayHello();
+// sayHello();
+// sayHello();
+// sayHello();
+// sayHello();
+
+
+// function sum(a, b) {
+//     console.log(a + b);
+// }
+
+// sum(10, 20);
+// sum(20, 50);
+// sum(2, 2);
+
+// function sum(a, b) {
+//     return a + b;
+// }
+
+// let result = sum(2,2);
+
+// console.log(result);
+
+// console.log(sum(3,4));
+
+// sum(2,2,23,4,5,6,7,5,4,3,2,3,45,6)
+
+
+// function sum(){
+//     // console.log(arguments);
+//     let result = 0;
+//     for(let number of arguments){
+//         result += number;
+//     }
+//     return result;
+// }
+
+
+// console.log(sum(2,4,5,35));
+
+// function declaration
+// function expression
+
+// declaration();
+
+// function declaration(){
+//     console.log("declaration");
+// }
+
+// expression();
+
+
+// let expression = function(){
+//     console.log("expression");
+// }
+
+
+// forEach map reduce find filter ...
+
+
+
+// const students = ["Ivan", "Max", "Anna"];
+
+
+// students.forEach(function(element, index){
+//     // console.log(element);
+//     console.log(index);
+// })
+
+// let newStudents = students.map(function(element, index){
+//     return element + "2";
+// })
+
+// console.log(newStudents);
+
+// function modify(array){
+//     // let newArray = array.map(function(element){
+//     //     return element + 10;
+//     // })
+//     // return newArray
+
+//     return array.map(function(element){
+//         return element + 10;
+//     }
+   
+// }
+
+// console.log(modify([1,2,3,4,5,6]));
