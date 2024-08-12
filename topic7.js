@@ -1,14 +1,14 @@
 // /[A-D]/i
 
 
-console.log("sfsfefsd 323535".match(/\d+\.?\d*/g));
+// console.log("sfsfefsd 323535".match(/\d+\.?\d*/g));
 
-$(function(){
+// $(function(){
 
-    $("#btn").on("click", function(){
+//     $("#btn").on("click", function(){
 
-    })
+//     })
 
-    $("#btn").css("color", "red");
+//     $("#btn").css("color", "red");
 
-})
+// })
