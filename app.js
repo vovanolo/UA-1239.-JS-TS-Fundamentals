@@ -1,3 +1,4 @@
+import { number, sum } from "./logic.js";
 // alert("hello"); 
 // // comment here
 // console.log("Hello world!"); // console.log
@@ -416,3 +417,8 @@
 
 
 // 'іавпвп " dfdf" '
+
+
+console.log(number);
+
+console.log(sum(2,5));
