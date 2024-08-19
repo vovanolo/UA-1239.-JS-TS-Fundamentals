@@ -419,6 +419,34 @@ import { number, sum } from "./logic.js";
 // 'іавпвп " dfdf" '
 
 
-console.log(number);
+// console.log(number);
 
-console.log(sum(2,5));
+// console.log(sum(2,5));
+
+// const users = [
+//     {
+//         name: "name1",
+//         age: 22
+//     },
+//     {
+//         name: "name2",
+//         age: 23
+//     },
+//     {
+//         name: "name3",
+//         age: 24
+//     },
+// ]
+
+// localStorage.setItem("users", JSON.stringify(users));
+
+// users[2].age = 25;
+
+// localStorage.setItem("users", JSON.stringify(users));
+// // console.log(localStorage.getItem("name"));
+// console.log(JSON.parse(localStorage.getItem("users")));
+
+
+// localStorage.removeItem("name");
+
+// localStorage.clear();
